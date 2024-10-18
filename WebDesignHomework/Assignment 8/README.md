@@ -1,7 +1,0 @@
-- Div
-- Span
-- Audio 
-- Video
-- Iframe
-- Class
-- Escape character 
