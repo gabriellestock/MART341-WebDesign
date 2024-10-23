@@ -41,6 +41,18 @@
         h1 {
             color: white;
         }
+        .video-gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        .video-gallery video {
+            max-width: 640px;
+            border-radius: 8px;
+            margin: 10px;
+        }
     </style>
 </head>
 <body>
@@ -56,13 +68,16 @@
         <img src="images/B7A0D5D9-1C52-48EB-8915-661E3ABD9D49_1_105_c.jpg" alt="Chicken Pot Pie Soup Image 1">
         <img src="images/FC09FE2C-F450-4BB0-8DF1-DAD831C6CB67_1_105_c.jpg" alt="Chicken Pot Pie Soup Image 2">
     </div>
-    <video width="640" height="360" controls>
+
+    <div class="video-gallery"></div>
+        <video width="640" height="360" controls>
         <source src="videos/IMG_4325.mp4" type="video/mp4">
         Your browser does not support the video tag.
-    </video>
-    <video width="640" height="360" controls>
-        <source src="Assignment9/videos/export_1729715538305.mp4" type="video/mp4"
+        </video>
+        <video width="640" height="360" controls>
+        <source src="Assignment9/videos/export_1729715538305.mp4" type="video/mp4">
         Your browser does not support the video tag.
-    </video>
+        </video>
+    </div>
 </body>
 </html>
