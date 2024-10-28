@@ -2,63 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Skincare and Beauty Blog</title>
-    <link rel="stylesheet" href="style/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow Up! Skincare Essentials</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+    <!-- Navigation -->
+    <nav>
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="#products">Products</a>
+        <a class="nav-link" href="#quiz">Skin Type Quiz</a>
+    </nav>
 
-<header>
-    <h1>Welcome to my Glow Up Guide!</h1>
-    <div class="header-images">
-        <img src="https://media.istockphoto.com/id/1566814719/photo/cosmetic-smears-cream-texture-on-beige-background.jpg?s=612x612&w=0&k=20&c=1w4C5mPEf8dr7ceoHQVgrZ6XbI1osRqVPKF8m2zS8PM=" alt="Cream Texture">
-        <img src="https://plus.unsplash.com/premium_photo-1684407616442-8d5a1b7c978e?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Skincare Products">
-    </div>
-    <h2>Here, you can learn how to glow from the inside out!</h2>
-</header>
+    <!-- Main Heading -->
+    <header>
+        <h1>Welcome to Glow Up!</h1>
+        <p>Your destination for personalized skincare tips and top product recommendations.</p>
+    </header>
 
-<div class="container">
-    <h3>About Skincare</h3>
-    <p>Skincare is essential for maintaining healthy and glowing skin. In this blog, I will share tips, product reviews, and my personal skincare journey. As well as some makeup tutorials and my favorite products sprinkled in, for when the skin needs a little cover-up.</p>
+    <!-- Featured Products Section -->
+    <section id="products">
+        <h2>Skincare Essentials</h2>
+        <div class="product-gallery">
+            <img src="https://media.istockphoto.com/id/1744053853/photo/bottle-pipette-dropper-close-up-and-liquid-yellow-orange-retinol-or-vitamin-c-gel-or-serum-on.jpg" alt="Retinol Serum" title="Retinol Serum" />
+            <img src="https://media.istockphoto.com/id/839214700/photo/touching-with-softness.jpg" alt="Moisturizing Cream" title="Moisturizing Cream" />
+            <img src="https://media.istockphoto.com/id/1280517978/photo/i-love-taking-care-of-my-skin.jpg" alt="Face Cream" title="Face Cream" />
+        </div>
+    </section>
 
-    <div class="three-column">
-        <img src="https://media.istockphoto.com/id/1460122390/photo/portrait-beauty-and-facial-with-a-black-woman-in-studio-to-promote-natural-skincare-or.jpg?s=612x612&w=0&k=20&c=WA6m1w260HXlEoaamK46jZTbdz5qbQR64HlTbN4dYlM=" alt="Skincare Portrait 1">
-        <img src="https://media.istockphoto.com/id/1589583543/photo/cosmetic-smear-of-cream-in-the-shape-of-heart-on-beige-background.jpg?s=612x612&w=0&k=20&c=tQocKrtvZTMiuDJfwgX5bWRL6KNJm-nVPJ13IZb99lI=" alt="Skincare Cream Heart">
-        <img src="https://media.istockphoto.com/id/1352840704/photo/portrait-of-an-attractive-young-woman-applying-moisturiser-against-a-grey-background.jpg?s=612x612&w=0&k=20&c=z6cfjfErGPXFe3QtSoDy3MCf45ZlNowHA-xhfTVizLw=" alt="Skincare Portrait 2">
-    </div>
+    <!-- Skin Type Quiz Form Section -->
+    <section id="quiz">
+        <h2>Skin Type Quiz</h2>
+        <p>Find out your skin type and get personalized product recommendations!</p>
+        <form action="mailto:example@domain.com" method="post" enctype="text/plain">
+            <fieldset>
+                <legend>Take the Quiz</legend>
+                <label>Email:<br />
+                    <input type="email" name="email" required>
+                </label><br />
+                <label>How does your skin feel after washing your face?<br />
+                    <textarea name="answer1" rows="3" required></textarea>
+                </label><br />
+                <label>What is your primary skin concern?<br />
+                    <textarea name="answer2" rows="3" required></textarea>
+                </label><br />
+                <label>Do you experience excess oil or shine?<br />
+                    <textarea name="answer3" rows="3" required></textarea>
+                </label><br />
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </section>
 
-    <h3>My Personal Skincare Routine</h3>
-    <ul>
-        <li><strong>Cleanser:</strong> I use a gentle cleanser in the morning, depending on your skin, if you have dry skin for example, you might want your cleanser to be oil-based and vice versa.</li>
-        <li><strong>Toner:</strong> I love to use Paula's Choice toner with a cotton pad right after I wash my face. This helps to balance my skin's pH.</li>
-        <li><strong>Moisturizer:</strong> Keeping my skin hydrated is crucial. So I use a combination of moisturizers. I really like CereVe's Moisturizing Cream.</li>
-        <li><strong>Sunscreen:</strong> Protecting my skin from UV rays is a must! I really like my Elemis collagen sunscreen, but it is pricy. Any facial sunscreen works, as long as you use it!</li>
-    </ul>
-
-    <h3>Skincare Myths</h3>
-    <blockquote>
-        <p>"You don't need sunscreen on cloudy days."</p>
-        <cite>— Dermatologist Dr. Jane Smith</cite>
-    </blockquote>
-
-    <h3>Common Ingredients and Their Benefits</h3>
-    <p>Here are some common skincare ingredients:</p>
-    <ol>
-        <li><abbr title="Hyaluronic Acid">HA</abbr>: <i>Hydrates the skin</i></li>
-        <li><abbr title="Vitamin C">Vit C</abbr>: <i>Brightens and evens skin tone</i></li>
-        <li><abbr title="Retinol">Ret.</abbr>: <i>Reduces fine lines and wrinkles</i></li>
-    </ol>
-
-    <h2>Product Recommendations</h2>
-    <p>For more detailed product reviews, check out my <a href="#reviews">reviews section</a>.</p>
-
-    <h2>Contact Me</h2>
-    <p>If you have any questions or suggestions, feel free to reach out!</p>
-    <address>
-        Email: <a href="mailto:gabbystock@icloud.com">gabbystock@icloud.com</a>
-    </address>
-</div>
-
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Glow Up! All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
-
