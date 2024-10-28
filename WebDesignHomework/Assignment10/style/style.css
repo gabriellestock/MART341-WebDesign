@@ -13,7 +13,7 @@ body {
 
 h1, h2, h3 {
   text-align: center;
-  color: #fff;
+  color: #ffd5ed;
   margin-top: 20px;
 }
 
@@ -106,7 +106,7 @@ body {
 }
 
 h1 {
-  color: #FFFFFF;
+  color: #ffd5ed;
   font-size: 2em;
   text-align: left;
   margin-bottom: 10px;
