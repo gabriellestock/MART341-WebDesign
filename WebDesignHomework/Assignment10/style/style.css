@@ -1,0 +1,72 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2em;
+  }
+  
+  .subtitle {
+    font-size: 1.2em;
+    opacity: 0.8;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 20px;
+  }
+  
+  #about, #techniques {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: left;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 5px;
+  }
+  
+  p {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  /* Image Styling */
+  .responsive-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
