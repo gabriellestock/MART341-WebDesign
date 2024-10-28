@@ -112,9 +112,22 @@ h1 {
   margin-bottom: 10px;
 }
 
-img {
+a {
+  color: #FFFFFF;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  float: right;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.image-container img {
   width: 30%;
-  margin: 1.66%;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -181,14 +194,6 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #8a505c;
-}
-
-a {
-  color: #FFFFFF;
-  padding: 10px;
-  text-decoration: none;
-  font-weight: bold;
-  float: right;
 }
 
 
