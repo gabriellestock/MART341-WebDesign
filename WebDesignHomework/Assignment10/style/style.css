@@ -13,18 +13,27 @@ header {
   text-align: center;
   padding: 20px;
   background-color: #ffd5ed;
+  position: relative;
+  z-index: index 1;
 }
 
 header h1 {
   font-size: 2em;
   color: #333;
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 10px;
 }
 
 nav a {
-  float: right;
+  display: inline-block;
+  margin: 0 10px;
   color: #B76E79;
   text-decoration: none;
   font-weight: bold;
+  padding: 10px;
 }
 
 nav a:hover {
