@@ -15,16 +15,17 @@ header {
   background-color: #ffd5ed;
   position: relative;
   z-index: index 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-#logo {
-  text-align: left;
+#logo a {
   text-decoration: none;
-  color: #ffd5ed;
+  color: #B76E79; /* Logo color */
+  font-weight: bold; /* Bold for emphasis */
 }
 
 header h1 {
-  font-size: 2em;
+  font-size: 2.5em;
   color: #333;
   margin-bottom: 10px;
 }
@@ -35,15 +36,17 @@ nav {
 
 nav a {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 15px;
   color: #B76E79;
   text-decoration: none;
   font-weight: bold;
   padding: 10px;
+  transition: color 0.3s;
 }
 
 nav a:hover {
   text-decoration: underline;
+  color: #333;
 }
 
 /* Image Gallery Styling */
@@ -176,12 +179,6 @@ label {
   color: black;
 }
 
-/* Section Titles */
-.section-title {
-  text-align: center;
-  margin-top: 30px;
-  color: #ffd5ed;
-}
 
 /* Hero Video Styling */
 #hero-video video {
@@ -189,11 +186,20 @@ label {
   height: auto;
 }
 
+/* Section Titles */
+.section-title {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #ffd5ed;
+  font-size: 2.2em;
+}
+
 /* Tutorials Section */
 .tutorial-section {
   width: 90%;
   margin: 0 auto;
-  padding: 10px;
+  padding: 20px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -201,40 +207,49 @@ label {
 
 .tutorial {
   flex: 1 1 30%;
-  margin: 1.4%;
-  padding: 15px;
-  background-color: #f2fcff;
-  box-sizing: border-box;
-  text-align: center;
-  max-width: 30%;
+    margin: 15px;
+    padding: 20px;
+    background-color: #f2fcff;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.tutorial:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover for effect */
 }
 
 .tutorial img {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
+  height: auto;
+  border-radius: 10px;
 }
 
 /* Special Note Styling */
 .special-note {
   font-weight: bold;
+  color: #B76E79;
 }
 
 /* Media Section */
 .media-section {
   width: 90%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 /* Podcast and Audio Section */
 .podcast-section, .audio-section {
   width: 30%;
-  height: 350px;
-  float: left;
-  margin: 1.66%;
+  height: auto;
+  margin: 15px;
   padding: 15px;
   text-align: center;
+  border-radius: 10px;
+  background-color: #f2fcff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1)
 }
 
 .clear {
@@ -249,6 +264,7 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
 footer p {
