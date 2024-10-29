@@ -1,24 +1,18 @@
-# Glow Up! Skincare Essentials
+# Project Overview
 
-This project provides a single-page website showcasing skincare essentials and a skin type quiz. It's created as part of Assignment10 with specific requirements for HTML structure and an external stylesheet.
+I worked on my index.html and products.html from my previous assignments.
 
-## Project Structure
-- **index.html**: The main HTML file for the site.
-- **style/style.css**: External stylesheet that manages the site’s styling.
-- **README.md**: Project documentation.
+## Required Techniques 
+- **External CSS**: External stylesheet that manages the site’s styling.
+- **Class selector**: Used to group and style the entire section introduing the blog's purpose. The intro-text class is specifically applied to the paragraph within that section to potentially apply distinct styles (like font size, color, or margin) that differentiate it from other paragraphs.
+- **ID Selector**: Allows for specific styling or scripting targeted to the header section. 
 
-## Techniques Used
+## Additional Techniques
 
 1. **HTML Structure**: The HTML is structured with headings, paragraphs, a product gallery, and a form to engage users.
 2. **CSS for Styling**: 
    - The `style.css` file includes colors, fonts, and layout settings.
-   - Flexbox is used in `.product-gallery` for responsive image display.
 3. **Form and Input**: Created a skin type quiz form with fields for user responses, improving user interaction.
 4. **Responsive Design**: Elements like the product images and form fields adapt for mobile and desktop views.
 5. **External CSS**: Moved styles to an external `style.css` file, simplifying the HTML and improving maintainability.
 
-## Setup and Usage
-1. Clone this repository.
-2. Open `index.html` in a browser to view the page.
-3. `style.css` in the `style` folder is linked to the HTML file for styling.
-4. Changes are pushed to GitHub for version control and easy access.

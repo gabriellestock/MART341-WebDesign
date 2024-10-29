@@ -17,6 +17,15 @@ header {
   z-index: 1;
 }
 
+#main-header {
+  background-color: #ffcccc;
+}
+
+#skincare-content {
+  padding: 20px;
+  border: 2px solid #ff66b2;
+}
+
 header h1 {
   font-size: 2em;
   color: #333;
