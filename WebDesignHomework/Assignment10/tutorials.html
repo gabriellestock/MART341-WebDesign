@@ -1,157 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Glow Up</title>
+    <link rel="stylesheet" href="style.css">
 
-    <style>
-        #logo {
-            text-align: left;
-            text-decoration: none;
-            color: #ffd5ed
-        }
-        nav {
-            float: right;
-            padding: 0 10px 10px 10px;
-        }
-        nav a {
-            text-decoration: underline;
-            padding: 10px;
-            color: #ffd5ed;
-            display: inline-block;
-        }
-        body {background-color: #B76E79}
-        h1 {color: rgb(128, 0, 73)}
-
-        .tutorial-section {
-            width: 90%;
-            margin: 0 auto;
-            padding: 10px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around
-        }
-        .tutorial {
-            flex: 1 1 30%;
-            margin: 1.4%;
-            padding: 15px;
-            background-color: #f2fcff;
-            box-sizing: border-box;
-            text-align: center;
-            max-width: 30%
-        }
-        .tutorial img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-        .special-note {
-            font-weight: bold;
-        }
-        .media-section {
-            width: 90%;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .podcast-section {
-            width: 30%;
-            height: 350px;
-            float: left;
-            margin: 1.66%;
-            padding: 15px;
-            text-align: center;
-        }
-        .audio-section {
-            width: 30%;
-            height: 350px;
-            float: left;
-            margin: 1.66%;
-            padding: 15px;
-            text-align: center;
-        }
-        .clear {
-            clear: both;
-        }
-    </style>
 </head>
 <body>
-
+    <header>
+        <h1 id="logo"><a href="index.html">Glow Up!</a></h1>
         <nav>
             <a href="index.html">HOME</a>
             <a href="products.html">PRODUCTS</a>
             <a href="tutorials.html">TUTORIALS</a>
         </nav>
-        <h1>
-            <a id="logo" href="index.html">Glow Up!</a>
-        </h1>
+    </header>
 
 <!-- Hero video -->
-        <div id="hero-video">
-            <video autoplay muted loop style="width: 100%; height: auto;">
+    <div id="hero-video">
+        <video autoplay muted loop style="width: 100%; height: auto;">
             <source src="video/AdobeStock_561519354.mp4" type="video/mp4">
             Your browser does not support the video tag.
-            </video>
-        </div>
-
-<!-- Tutorials Section  -->
-        <h1 style="text-align: center; margin-top: 30px; color:#ffd5ed"> Tutorials </h1>
-        <div class="tutorial-section">
-            <div class="tutorial">
-                <img src="images/beautiful-girl-hand-care.png" alt="Beautiful girl hand care">
-                <h2>Clean Girl Makeup Tutorial</h2>
-                <p>The perfect <span class="special-note">clean girl</span></p> makeup tutorial!</p>
-                <a href="https://www.youtube.com/watch?v=y46hvE9JAXo" target="_blank">View Tutorial</a>
-            </div>
-
-            <div class="tutorial">
-                <img src="images/beautiful-girl-with-makeup.png" alt="Beautiful girl with make-up">
-                <h2>Full Glam Makeup</h2>
-                <p> <span class="special-note">Full glam</span> makeup tutorial!</p>
-                <a href="https://www.youtube.com/watch?v=hzwKvjZseIc" target="_blank">View Tutorial</a>
-            </div>
-
-            <div class="tutorial">
-                <img src="images/female-eye-closeup.png" alt="Female eye close up"">
-                <h2>Night Out Makeup</h2>
-                <p> The best makeup routine for a <span class="special-note">night out</span> on the town!</p>
-                <a href="https://www.tiktok.com/@adisonjustis/video/7334086714379554078" target="_blank">View Tutorial</a>
-            </div>
-
-            <div class="tutorial">
-                <img src="images/pretty-young-woman-face.png" alt="Closeup of pretty young woman face with blue eyes">
-                <h2>No Makeup Makeup Routine</h2>
-                <p> A <span class="special-note">no makeup makeup routine</span> for the every day look.</p>
-                <a href="https://www.youtube.com/watch?v=XI-lMkq22SE" target="_blank">View Tutorial</a>
-            </div>
-
-<!--Media Section-->
-    <h1 style="clear: both; text-align: center; width: 100%; color:#ffd5ed">Media</h1>
-    <div class="media-section">  
-
-<!--Audio Section-->
-        <div class="audio-section">
-            <h3 style= color:#ffd5ed> Listen to this while you perform your night time skincare </h3>
-            <audio controls loop>
-                <source src="Downloads/629146__holizna__chill-lofi-vibes-loop-75-bpm.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-            <p style="font-size: 10px;">Chill Lofi Vibes<a href="https://freesound.org/people/holizna/sounds/629146/" target="_blank">UNIVERSFIELD</a> — Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC Attribution 4.0</a></p>
-        </div>
-
-<!--Podcast Iframe Section-->
-        <div class="podcast-section"> 
-            <h3 style= color:#ffd5ed>Listen to our recommended podcast!</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ivo28hhB5-A?si=5UnWNLSD6eSInbGD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+        </video>
     </div>
 
-    <div class="clear"></div>
+<!-- Tutorials Section -->
+<h1 class="section-title">Tutorials</h1>
+<div class="tutorial-section">
+    <div class="tutorial">
+        <img src="images/beautiful-girl-hand-care.png" alt="Beautiful girl hand care">
+        <h2>Clean Girl Makeup Tutorial</h2>
+        <p>The perfect <span class="special-note">clean girl</span> makeup tutorial!</p>
+        <a href="https://www.youtube.com/watch?v=y46hvE9JAXo" target="_blank">View Tutorial</a>
+    </div>
 
-    <footer>
-        <p>&copy; 2024 Glow Up! - Discover Your True Glow</p>
-    </footer>
+    <div class="tutorial">
+        <img src="images/beautiful-girl-with-makeup.png" alt="Beautiful girl with make-up">
+        <h2>Full Glam Makeup</h2>
+        <p><span class="special-note">Full glam</span> makeup tutorial!</p>
+        <a href="https://www.youtube.com/watch?v=hzwKvjZseIc" target="_blank">View Tutorial</a>
+    </div>
+
+    <div class="tutorial">
+        <img src="images/female-eye-closeup.png" alt="Female eye close up">
+        <h2>Night Out Makeup</h2>
+        <p>The best makeup routine for a <span class="special-note">night out</span> on the town!</p>
+        <a href="https://www.tiktok.com/@adisonjustis/video/7334086714379554078" target="_blank">View Tutorial</a>
+    </div>
+
+    <div class="tutorial">
+        <img src="images/pretty-young-woman-face.png" alt="Closeup of pretty young woman face with blue eyes">
+        <h2>No Makeup Makeup Routine</h2>
+        <p>A <span class="special-note">no makeup makeup routine</span> for the everyday look.</p>
+        <a href="https://www.youtube.com/watch?v=XI-lMkq22SE" target="_blank">View Tutorial</a>
+    </div>
+</div>
+
+<!-- Media Section -->
+<h1 class="section-title">Media</h1>
+<div class="media-section">  
+    <!-- Audio Section -->
+    <div class="audio-section">
+        <h3>Listen to this while you perform your nighttime skincare</h3>
+        <audio controls loop>
+            <source src="Downloads/629146__holizna__chill-lofi-vibes-loop-75-bpm.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <p>Chill Lofi Vibes - <a href="https://freesound.org/people/holizna/sounds/629146/" target="_blank">UNIVERSFIELD</a> — Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC Attribution 4.0</a></p>
+    </div>
+
+    <!-- Podcast Iframe Section -->
+    <div class="podcast-section"> 
+        <h3>Listen to our recommended podcast!</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ivo28hhB5-A?si=5UnWNLSD6eSInbGD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Glow Up! - Discover Your True Glow</p>
+</footer>
 </body>
 </html>
         
