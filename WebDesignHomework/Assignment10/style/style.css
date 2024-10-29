@@ -1,41 +1,54 @@
-/* General Styles */
+/* General Styling */
 body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
   background-color: #B76E79;
-  font-family: Arial, sans-serif; /* Adding a font for consistency */
+  color: #333;
+  line-height: 1.6;
 }
 
-h1, h2 {
-  color: #ffd5ed;
+/* Header Styling */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffd5ed;
 }
 
-h3 {
-  color: #B76E79;
-}
-
-/* Navigation Links */
-nav {
-  display: flex;
-  justify-content: flex-end;
-  padding: 10px;
+header h1 {
+  font-size: 2em;
+  color: #333;
 }
 
 nav a {
-  margin-left: 10px;
-  color: #ffd5ed; /* Ensure links are visible against the background */
+  float: right;
+  padding: 10px;
+  color: #B76E79;
   text-decoration: none;
+  font-weight: bold;
 }
 
-/* Image Styles */
-img {
-  width: 33%;
-  height: auto;
+nav a:hover {
+  text-decoration: underline;
 }
 
-/* Table Styles */
+/* Image Gallery Styling */
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.image-gallery img {
+  width: 30%;
+  border-radius: 10px;
+}
+
+/* Table Styling */
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 20px; /* Space above the table */
+  margin: 20px 0;
 }
 
 th, td {
@@ -53,43 +66,113 @@ tr:nth-child(odd) {
 }
 
 tr:nth-child(even) {
-  background-color: #fff5f5; /* This can be customized or removed */
+  background-color: #fff5f5;
 }
 
-/* Form Styles */
+/* Section Styling */
+.intro-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.intro-text {
+  font-size: 1.5em;
+  color: #E6E6FA;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.left-image, .right-image {
+  width: 45%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.content-section {
+  padding: 20px;
+  background-color: #fff5f5;
+}
+
+.content-section h2 {
+  color: #B76E79;
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.content-section p {
+  font-size: 1.1em;
+  color: #333;
+  padding: 10px 0;
+}
+
+/* List Styling */
+ul, ol {
+  margin: 10px;
+  padding-left: 20px;
+}
+
+blockquote {
+  font-style: italic;
+  color: #666;
+  padding: 10px;
+  margin: 15px;
+  border-left: 5px solid #ffd5ed;
+  background-color: #f2fcff;
+}
+
+/* Skincare Image Styling */
+.skincare-images {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.skincare-images img {
+  width: 30%;
+  height: auto;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+/* Contact Styling */
+address {
+  font-size: 1.1em;
+  color: #333;
+  text-align: center;
+}
+
+address a {
+  color: #333;
+  text-decoration: underline;
+}
+
+/* Form Styling */
 form {
   background-color: #ffd5ed;
   padding: 20px;
-  border-radius: 5px; /* Adding rounded corners */
-  margin-top: 20px; /* Space above the form */
+  border-radius: 10px;
 }
 
 label {
   color: black;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%; /* Make inputs and textareas full width */
+/* Footer Styling */
+footer {
+  text-align: center;
   padding: 10px;
-  margin: 10px 0; /* Space between inputs */
-  border-radius: 5px; /* Adding rounded corners */
-  border: 1px solid #ccc; /* Border for inputs */
+  background-color: #ffd5ed;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
-/* Button Styles */
-input[type="submit"] {
-  background-color: #B76E79; /* Button background */
-  color: #ffd5ed; /* Button text color */
-  padding: 10px 15px; /* Padding inside the button */
-  border: none;
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer; /* Pointer cursor on hover */
+footer p {
+  margin: 0;
+  color: #333;
 }
-
-input[type="submit"]:hover {
-  background-color: #ffd5ed; /* Change background on hover */
-  color: #B76E79; /* Change text color on hover */
-}
-
