@@ -1,7 +1,7 @@
 # Assignment 11 - Web Development Techniques
 
 ## HTML Page:
-For this assignment, I will be working on the **story.html** page. This page will highlight the background story of the imaginary client, "Glow Up Skincare," a brand that provides natural beauty and skincare products.
+For this assignment, I will be working on the **story.html** page. This page will highlight the background story of the imaginary client, "Glow Up!," a brand that provides tips and tricks on skincare and makeup.
 
 ## Required Techniques:
 1. **External CSS Style Sheet**:
@@ -14,7 +14,7 @@ For this assignment, I will be working on the **story.html** page. This page wil
    - I selected a custom font and self-hosted it to maintain consistency in the brand’s visual identity. The font is stored in the `assets/fonts` folder, and linked in the CSS file.
 
 4. **Font from a Library**:
-   - I used **Google Fonts** to incorporate an external font (e.g., "Roboto" or "Lora") to enhance the aesthetic and readability of the page.
+   - I used **Google Fonts** to incorporate an external font to enhance the aesthetic and readability of the page.
 
 ## Additional Techniques:
 1. **Experimenting with Different Font Styles**:
@@ -35,5 +35,4 @@ For this assignment, I will be working on the **story.html** page. This page wil
 6. **Pseudo-elements and Pseudo-classes**:
    - I used pseudo-elements like `::before` and `::after` to insert decorative content before or after certain elements, such as quotation marks or icons in the navigation.
 
-## Conclusion:
-The techniques above were implemented to create a visually appealing, interactive, and well-organized web page for the brand "Glow Up Skincare."
+
