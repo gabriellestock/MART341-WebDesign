@@ -1,7 +1,7 @@
 /* External font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* Self-hosted font (example - replace with your actual font path) */
+/* Self-hosted font */
 @font-face {
   font-family: 'MyCustomFont';
   src: url('assets/fonts/my-custom-font.woff2') format('woff2');
