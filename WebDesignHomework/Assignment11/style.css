@@ -17,6 +17,21 @@ body {
   padding: 0;
 }
 
+/* Background section styles */
+.background {
+    background-color: #fff; /* White background for contrast */
+    padding: 20px;
+    border: 2px solid #ff66b2; /* Same border style as other sections */
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .background h2 {
+    color: #ff3385; /* Darker pink for headings */
+    margin-top: 0; /* Remove default top margin for a cleaner look */
+  }
+  
 /* Header section */
 header {
   background-color: #ff66b2; /* Soft pink */
