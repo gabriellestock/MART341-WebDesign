@@ -139,4 +139,32 @@ h1::after {
   content: " 🌸";
 }
 
+/* Contact section styles */
+.contact {
+    background-color: #ffffff; /* White background for contrast */
+    padding: 20px;
+    border: 2px solid #ff66b2; /* Same border style as other sections */
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact h2 {
+    color: #ff3385; /* Darker pink for headings */
+    margin-top: 0; /* Remove default top margin for a cleaner look */
+  }
+  
+  .contact p {
+    margin-bottom: 10px; /* Spacing between paragraphs */
+  }
+  
+  .contact ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove padding */
+  }
+  
+  .contact li {
+    margin-bottom: 5px; /* Space between list items */
+  }
+  
 
