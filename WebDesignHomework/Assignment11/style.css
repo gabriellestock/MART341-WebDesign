@@ -10,57 +10,118 @@
 /* General page styles */
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #fef2f9; /* Soft pink background */
+  color: #333;
   line-height: 1.6;
   margin: 0;
   padding: 0;
 }
 
+/* Header section */
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #ff66b2; /* Soft pink */
+  color: white;
   text-align: center;
-  padding: 20px 0;
+  padding: 30px 0;
+  border-bottom: 5px solid #ff3385; /* Darker pink border */
+  border-radius: 10px 10px 0 0;
 }
 
 h1 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-size: 2.5em;
+  margin: 0;
 }
 
+/* Add a cute icon before the title */
+h1::before {
+  content: "🌸 ";
+}
+
+/* Footer section */
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #ff66b2; /* Soft pink */
+  color: white;
   text-align: center;
-  padding: 10px;
-}
-
-.intro {
-  margin: 20px;
+  padding: 15px 0;
+  border-top: 5px solid #ff3385;
+  border-radius: 0 0 10px 10px;
   font-size: 1.2em;
 }
 
-/* Hover effects on links */
+footer p {
+  margin: 0;
+}
+
+/* Main content section */
+.intro {
+  margin: 30px;
+  font-size: 1.3em;
+  color: #666;
+  text-align: center;
+}
+
+.intro p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.2em;
+  line-height: 1.8;
+}
+
+/* Styling links and hover effects */
 a {
   text-decoration: none;
-  color: #333;
+  color: #ff3385; /* Darker pink */
+  font-weight: 600;
 }
 
 a:hover {
-  color: #0c7b93;
+  color: #ff66b2;
   text-decoration: underline;
 }
 
-/* Pseudo-elements for additional content */
-h1::before {
-  content: "✨ ";
+/* Button styling with pink gradient */
+button {
+  background: linear-gradient(45deg, #ff3385, #ff66b2); /* Gradient pink */
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1em;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
 
-h1::after {
-  content: " ✨";
+button:hover {
+  background: linear-gradient(45deg, #ff66b2, #ff3385); /* Reversed gradient on hover */
 }
 
-/* Font weight for emphasis */
-strong {
+/* Decorative border around sections */
+section {
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #ff66b2;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Spacing adjustments for headings and paragraphs */
+h2, h3 {
+  color: #ff3385;
   font-weight: 700;
+  margin-bottom: 10px;
 }
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Pseudo-elements for additional cute effects */
+h1::after {
+  content: " 🌸";
+}
+
+
