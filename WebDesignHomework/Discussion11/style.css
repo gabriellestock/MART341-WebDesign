@@ -1,0 +1,135 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffdc9c;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #e69d00;
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Navigation styling */
+nav {
+    text-align: center;
+    margin: 15px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #e69d00;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #d87d00;
+}
+
+/* Content styling */
+.content {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section titles */
+h2 {
+    color: #e69d00;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Unordered list styling for ingredients */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+/* Ordered list styling for instructions */
+ol {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+ol li {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* Nutrition Facts Section */
+.nutrition-facts {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nutrition-facts .title {
+    color: #e69d00;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.nutrition-facts table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition-facts table th, .nutrition-facts table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.nutrition-facts table th {
+    font-weight: bold;
+    background-color: #e69d00;
+    color: white;
+}
+
+.nutrition-facts table td {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Links */
+a {
+    color: #e69d00;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d87d00;
+}
