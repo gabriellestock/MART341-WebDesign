@@ -4,9 +4,10 @@
 
 ## Implemented Techniques
 
-1. **Sizing**: Applied width control on the `.portfolio-item` divs to keep them within a specific width.
-2. **Overflow**: Used overflow in `.portfolio-item` for handling any content that exceeds its bounds.
-3. **Border**: Added borders around `.portfolio-item` to separate each sample visually.
-4. **Margin**: Added margin to `.portfolio-item` and `section` elements to create spacing between sections.
-5. **Padding**: Applied padding in `header`, `footer`, and `.portfolio-item` to create space within elements.
-6. **Display**: Used `display: inline-block` for `nav a` links to place them horizontally in the navigation.
+1. **Sizing**: Sizing is controlled using max-width, such as in .container {maxp-width: 1000px;} and main { max-width: 800px}, which constrains the width of elements to prevent them from becoming too wide on large screens.
+2. **Overflow**: Used overflow in `.container` to ensure no content overflows container the boundaries.
+3. **Border**: Borders are used to emphasize elements, such as in '.portfolio-item', which adds a subtle border around each portfolio item, enhancing separation and giving a card-like appearance.
+4. **Margin**: Margin creates space outside elements, helping to separate sections. For example, margin: 0 auto; in .container centers the container on the page. 
+5. **Padding**: Padding is applied to create space inside elements between content and borders, enhancing readability. For example, padding: 20px; in section and main provides inner space around content.
+6. **Display**: Used `display: inline-block` for `nav a` links to place them horizontally in the navigation. 
+7. **Position**: Used Position: relative to enable positioning relative to itself. 
