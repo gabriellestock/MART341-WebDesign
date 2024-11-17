@@ -96,6 +96,34 @@ ul{
     color: #007acc;
 }
 
+#professional-summary {
+    margin: 2rem 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+#professional-summary h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+.summary-content p {
+    margin: 1rem 0;
+    font-size: 1rem;
+    color: #555;
+    text-align: justify;
+}
+
+.summary-content {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 #education {
     margin: 2rem 0;
     font-family: Arial, sans-serif;
