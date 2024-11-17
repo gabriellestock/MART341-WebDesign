@@ -192,6 +192,110 @@ ul{
     color: #555;
 }
 
+/* Styling for the Samples Section */
+#samples {
+    margin: 3rem 0;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#samples h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.portfolio-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item h3 {
+    font-size: 1.5rem;
+    color: #0073e6;
+    margin-bottom: 1rem;
+}
+
+.portfolio-item p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.portfolio-item a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.portfolio-item a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the Samples Detail Page */
+#social-media-examples {
+    margin: 3rem auto;
+    max-width: 900px;
+    padding: 2rem;
+}
+
+.example-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.example-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.example-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.example-item p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+nav a {
+    color: #0073e6;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Layout for Small Screens */
+@media (max-width: 768px) {
+    #samples, #social-media-examples {
+        padding: 1rem;
+    }
+
+    .portfolio-item, .example-item {
+        padding: 1rem;
+    }
+
+    .portfolio-item h3, .example-item h3 {
+        font-size: 1.25rem;
+    }
+}
+
 footer {
     background-color: #007acc;
     color: #fff;
