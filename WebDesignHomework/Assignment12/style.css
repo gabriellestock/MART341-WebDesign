@@ -7,6 +7,30 @@
     overflow: hidden;
 }
 
+.bio-section {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 2rem auto;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #0073e6;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.bio-text {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
 /* Body styling */
 body {
     font-family: 'Arial', sans-serif;
