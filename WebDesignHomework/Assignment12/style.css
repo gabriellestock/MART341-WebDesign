@@ -238,31 +238,28 @@ ul{
     text-decoration: underline;
 }
 
-.example-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 1rem;
-}
-
-/* Styling for the Samples Detail Page */
+/* Grid Layout for Social Media Examples */
 #social-media-examples {
-    margin: 3rem auto;
-    max-width: 900px;
-    padding: 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 2rem;
     justify-items: center;
+    padding: 0 1rem;
+    margin-bottom: 3rem;
 }
 
 .example-item {
-    margin-bottom: 2rem;
     padding: 1.5rem;
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.example-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .example-item img {
@@ -275,26 +272,14 @@ ul{
 
 .example-item h3 {
     font-size: 1.5rem;
-    color: #333;
+    color: #0073e6;
     margin-bottom: 1rem;
 }
 
 .example-item p {
     font-size: 1.1rem;
     color: #555;
-}
-
-/* Grid Layout for Social Media Examples */
-#social-media-examples {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 2rem;
-    justify-items: center;
-}
-
-#social-media-examples .example-item {
-    width: 100%;
-    max-width: 300px; /* Optional: Set max-width for individual items */
+    margin-bottom: 1rem;
 }
 
 /* Styling for the Samples Section */
