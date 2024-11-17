@@ -238,11 +238,22 @@ ul{
     text-decoration: underline;
 }
 
+.example-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
 /* Styling for the Samples Detail Page */
 #social-media-examples {
     margin: 3rem auto;
     max-width: 900px;
     padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    justify-items: center;
 }
 
 .example-item {
@@ -255,10 +266,11 @@ ul{
 }
 
 .example-item img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 1rem;
+    object-fit: cover; /* Ensure images fill their container while maintaining aspect ratio */
 }
 
 .example-item h3 {
