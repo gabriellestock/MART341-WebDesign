@@ -96,6 +96,39 @@ ul{
     color: #007acc;
 }
 
+#education {
+    margin: 2rem 0;
+    font-family: Arial, sans-serif;
+}
+
+.education-item {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.education-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.education-item p, 
+.education-item ul {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.education-item ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+
+.education-item ul li {
+    margin: 0.3rem 0;
+}
+
 footer {
     background-color: #007acc;
     color: #fff;
