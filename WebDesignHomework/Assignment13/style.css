@@ -220,7 +220,7 @@ main {
 .join-content {
     max-width: 800px;
     margin: 0 auto;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent for readability */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better text readability */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
