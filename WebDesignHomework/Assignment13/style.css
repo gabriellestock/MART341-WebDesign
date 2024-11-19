@@ -7,11 +7,10 @@ body, h1, p, ul, li, nav, footer, section {
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f4f4f4;
     color: #333;
 }
+
 .hero {
     position: relative;
     width: 100%;
@@ -27,6 +26,7 @@ body {
     height: 100%;
     object-fit: cover;
     transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure video is below other elements */
 }
 
 .hero-overlay {
@@ -43,6 +43,7 @@ body {
     color: white;
     text-align: center;
     padding: 20px;
+    z-index: 2; /* Ensure overlay is above video */
 }
 
 .hero-overlay h1 {
@@ -55,9 +56,15 @@ body {
     margin: 10px 0 0;
 }
 
-header {
-    background: #333;
-    color: #fff;
+/* Navigation Bar */
+nav {
+    position: absolute; /* Position the nav bar over the hero section */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+    z-index: 3; /* Ensure nav is on top of everything */
+    padding: 10px 0;
 }
 
 .navbar {
@@ -123,5 +130,9 @@ main {
 
     .hero-overlay p {
         font-size: 1.2rem;
+    }
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
     }
 }
