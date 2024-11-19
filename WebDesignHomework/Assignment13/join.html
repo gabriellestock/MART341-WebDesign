@@ -38,7 +38,32 @@
             <h2>Become a Sole Mate</h2>
             <p>Joining Sole Mates is easy! Whether you're new to running or a seasoned athlete, we welcome all levels. Our community thrives on support, motivation, and fun!</p>
             <p>As a member, you'll get exclusive access to weekly group runs, race discounts, and so much more!</p>
-            <a href="signup.html" class="btn">Sign Up Now</a>
+
+            <form action="#" method="post" class="signup-form">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Optional">
+
+                <label for="membership-type">Membership Type:</label>
+                <select id="membership-type" name="membership-type" required>
+                    <option value="individual">Individual</option>
+                    <option value="family">Family</option>
+                    <option value="student">Student</option>
+                </select>
+
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Let us know anything you'd like!"></textarea>
+
+                <button type="submit" class="btn">Sign Up Now</button>
+            </form>
         </section>
 
         <section id="benefits" class="join-section">
