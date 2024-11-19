@@ -207,21 +207,47 @@ main {
     color: #388e3c;
 }
 
-/* Sign-Up Form Styles */
-.signup-form {
-    max-width: 600px;
+
+/* Join section styles */
+.join-section {
+    background-color: #2e7d32; /* Matches the dark green tone */
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.join-content {
+    max-width: 800px;
     margin: 0 auto;
-    background-color: white;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent for readability */
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    color: #013220; /* Dark Green */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.join-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.join-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.signup-form {
+    text-align: left;
+    margin-top: 20px;
 }
 
 .signup-form label {
     display: block;
-    margin-bottom: 8px;
     font-weight: bold;
+    margin-bottom: 8px;
+    color: white; /* Keep labels visible against dark background */
 }
 
 .signup-form input,
@@ -230,52 +256,30 @@ main {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 4px;
     font-size: 1rem;
 }
 
+.signup-form textarea {
+    resize: none;
+}
+
 .signup-form button {
+    display: block;
     width: 100%;
     padding: 12px;
-    background-color: #28a745;
+    background-color: #388e3c;
     color: white;
     border: none;
     border-radius: 4px;
     font-size: 1.2rem;
     cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .signup-form button:hover {
-    background-color: #218838;
-}
-
-/* Join section styles */
-.join-section {
-    padding: 50px;
-    background-color: #013220; /* Dark Green */
-    color: white;
-    text-align: center;
-}
-
-.join-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-.join-section p {
-    font-size: 1.25rem;
-    margin-bottom: 20px;
-}
-
-.join-section ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.join-section ul li {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
+    background-color: #2e7d32;
 }
 
 footer {
