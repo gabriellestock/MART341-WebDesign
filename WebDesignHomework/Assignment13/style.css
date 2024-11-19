@@ -153,6 +153,19 @@ main {
     margin-bottom: 0; /* Removes extra space after the last paragraph */
 }
 
+footer {
+    background-color: #333; /* Dark background for the footer */
+    color: white;
+    text-align: center; /* Centers the footer text */
+    padding: 20px 0; /* Adds space above and below the text */
+    position: relative;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
 
 @media (max-width: 768px) {
     .hero {
