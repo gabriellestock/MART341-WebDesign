@@ -121,7 +121,7 @@ main {
 
 /* Welcome Section */
 .welcome {
-    background: linear-gradient(to bottom, #4caf50, #87ceeb); /* Green to blue gradient for outdoor vibes */
+    background-color: #2e7d32;
     padding: 40px 20px;
     text-align: center;
     color: white;
