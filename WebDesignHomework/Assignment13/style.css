@@ -153,6 +153,56 @@ main {
     margin-bottom: 0; /* Removes extra space after the last paragraph */
 }
 
+/* Events Section */
+.events {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.events h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.race-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.race-item {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.race-item h3 {
+    font-size: 1.5rem;
+    color: #2e7d32;
+}
+
+.race-item p {
+    margin: 10px 0;
+}
+
+.volunteer-list {
+    margin-top: 30px;
+}
+
+.volunteer-item {
+    background-color: #f0f4c3;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.volunteer-item h3 {
+    font-size: 1.25rem;
+    color: #388e3c;
+}
+
 footer {
     background-color: #333; /* Dark background for the footer */
     color: white;
