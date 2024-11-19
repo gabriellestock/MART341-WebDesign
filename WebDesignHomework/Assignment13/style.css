@@ -5,6 +5,10 @@ body, h1, p, ul, li, nav, footer, section {
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth; /* Smooth scrolling when clicking on anchor links */
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
