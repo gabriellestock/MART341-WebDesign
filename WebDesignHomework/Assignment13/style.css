@@ -207,6 +207,32 @@ main {
     color: #388e3c;
 }
 
+/* Join section styles */
+.join-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.join-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.join-section p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.join-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.join-section ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
 footer {
     background-color: #333; /* Dark background for the footer */
     color: white;
