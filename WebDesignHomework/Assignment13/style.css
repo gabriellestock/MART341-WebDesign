@@ -78,6 +78,7 @@ nav {
     display: flex;
     justify-content: center; /* Center the navigation items */
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .navbar li {
@@ -308,8 +309,13 @@ footer p {
     .hero-overlay p {
         font-size: 1.2rem;
     }
+
     .navbar {
         flex-direction: column;
         gap: 10px;
+    }
+
+    .welcome-content, .join-content {
+        padding: 15px;
     }
 }
