@@ -8,50 +8,62 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Big Sky Alpine Retreat</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
-          <li class="nav-item"><a class="nav-link" href="accommodations.html">Accommodations</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">Big Sky Alpine Retreat</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="accommodations.html">Accommodations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <!-- Hero Section -->
-  <div class="container-fluid hero-section text-center text-white">
-    <div class="overlay"></div>
-    <h1>Welcome to Big Sky Alpine Retreat</h1>
-    <p>Adventure, Relaxation, and Unmatched Winter Experiences Await You</p>
-    <a href="accommodations.html" class="btn btn-primary btn-lg">Book Your Stay</a>
-  </div>
+  <section class="hero">
+    <video autoplay muted loop>
+      <source src="assets/ski-resort.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-overlay">
+      <div>
+        <h1>Welcome to Big Sky Alpine Retreat</h1>
+        <p>Experience world-class skiing and unmatched hospitality.</p>
+        <a href="accommodations.html">Plan Your Stay</a>
+      </div>
+    </div>
+  </section>
 
-  <!-- Highlights -->
-  <section class="highlights container py-5">
+  <!-- Main Content -->
+  <main class="container mt-5">
+    <h2>Page Content Here</h2>
+    <p>Add the page-specific content here.</p>
+  </main>
+
+ <!-- Highlights Section -->
+<section class="highlights container py-5">
     <div class="row text-center">
+      <!-- Skiing & Snowboarding -->
       <div class="col-md-3">
         <i class="fas fa-skiing fa-3x mb-3"></i>
         <h4>Skiing & Snowboarding</h4>
         <p>Enjoy top-rated slopes for all skill levels.</p>
       </div>
+      <!-- Spa & Relaxation -->
       <div class="col-md-3">
         <i class="fas fa-spa fa-3x mb-3"></i>
         <h4>Spa & Relaxation</h4>
         <p>Unwind in our luxury spa facilities.</p>
       </div>
+      <!-- Luxury Cabins -->
       <div class="col-md-3">
         <i class="fas fa-bed fa-3x mb-3"></i>
         <h4>Luxury Cabins</h4>
         <p>Stay in cozy accommodations with stunning views.</p>
       </div>
+      <!-- Dining Experiences -->
       <div class="col-md-3">
         <i class="fas fa-utensils fa-3x mb-3"></i>
         <h4>Dining Experiences</h4>
@@ -59,6 +71,7 @@
       </div>
     </div>
   </section>
+  
 
   <script src="bootstrap/bootstrap.bundle.min.js"></script>
 </body>

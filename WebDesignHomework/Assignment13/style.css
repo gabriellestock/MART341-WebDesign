@@ -283,6 +283,35 @@ main {
     background-color: #2e7d32;
 }
 
+ /* Highlights Section */
+.highlights {
+    background: linear-gradient(to bottom, #e3f2fd, #ffffff);
+    padding: 3rem 1rem;
+    text-align: center;
+    border-top: 1px solid #90caf9;
+  }
+  
+  .highlights h4 {
+    color: #0056b3;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  .highlights p {
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .highlights i {
+    color: #007bff;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .highlights i:hover {
+    color: #003d73;
+    transform: scale(1.2);
+  }  
+
 footer {
     background-color: #333; /* Dark background for the footer */
     color: white;
