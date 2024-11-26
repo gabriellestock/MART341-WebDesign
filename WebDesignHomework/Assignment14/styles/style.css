@@ -110,7 +110,7 @@ a:hover {
 /* Portfolio Section Styling */
 .portfolio-photo {
     width: 100%;         /* Ensures the image takes the full width of its column */
-    height: 300px;       /* Set a higher height for larger images */
+    height: 400px;       /* Increase the height to make the photos larger */
     object-fit: cover;   /* Ensures the image covers the area without stretching */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin: 0 auto;      /* Centers the images within the columns */
@@ -125,18 +125,19 @@ a:hover {
 /* Ensure proper spacing between images */
 .row {
     display: flex;
-    justify-content: space-between; /* Ensures there is space between columns */
+    justify-content: space-evenly; /* Reduced space between images */
     align-items: center;
 }
 
 /* Optional: Adjust for smaller screens */
 @media (max-width: 768px) {
     .portfolio-photo {
-        width: 90%;  /* Adjust width for smaller screens */
-        height: 250px; /* Slightly smaller height on smaller screens */
+        width: 100%;  /* Ensure images take full width on smaller screens */
+        height: 300px; /* Adjust height for smaller screens */
     }
     .row {
         flex-direction: column; /* Stack images vertically on smaller screens */
+        justify-content: center; /* Center the images vertically */
     }
 }
 
