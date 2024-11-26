@@ -109,20 +109,28 @@ a:hover {
 
 /* Portfolio Section Styling */
 .portfolio-photo {
-    width: 100%;
+    width: 80%;  /* Makes the images smaller */
     height: auto;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 0 auto; /* Centers the images within the columns */
 }
 
 .portfolio-photo:hover {
     transform: scale(1.05); /* Slight zoom effect */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
 }
 
-/* Media Query for Smaller Screens */
+/* Ensures images stay in a horizontal row on all screen sizes */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Optional: Control image sizes for very small screens */
 @media (max-width: 768px) {
     .portfolio-photo {
-        margin-bottom: 20px;
+        width: 60%;  /* Further reduce size on smaller screens */
     }
 }
 
