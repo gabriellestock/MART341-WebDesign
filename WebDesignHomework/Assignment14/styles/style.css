@@ -3,23 +3,24 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    color: #ffffff;
-    background-color: #f0f8ff; /* Light blue background for the entire site */
+    background-color: #f4f4f4; /* Light grey background for the entire site */
+    color: #333; /* Dark grey text for contrast */
 }
 
 a {
-    color: #add8e6; /* Lighter blue for links */
+    color: #888; /* Soft grey for links */
 }
 
 a:hover {
-    color: #1e90ff; /* Bright blue on hover */
+    color: #555; /* Darker grey on hover */
 }
 
 /* Navbar */
 .navbar {
-    background: rgba(255, 255, 255, 0.5); /* Transparent navbar with slight white background */
+    background: rgba(255, 255, 255, 0.9); /* Slight white transparency */
     padding: 15px 30px;
-    backdrop-filter: blur(5px); /* Blur the background behind the navbar */
+    backdrop-filter: blur(5px); /* Blur effect behind navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for navbar */
 }
 
 .navbar-nav .nav-item {
@@ -29,11 +30,12 @@ a:hover {
 .nav-link {
     font-size: 1.2rem;
     font-weight: bold;
+    color: #333; /* Dark grey for links */
     transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-    color: #1e90ff;
+    color: #555; /* Darker grey for hover */
 }
 
 /* Hero Section */
@@ -56,7 +58,7 @@ a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for text readability */
+    background-color: rgba(0, 0, 0, 0.3); /* Dark overlay for better text visibility */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,13 +76,13 @@ a:hover {
 
 .hero-image p {
     font-size: 1.2rem;
-    color: #f0f8ff;
+    color: #ddd; /* Light grey text for the description */
     margin-bottom: 20px;
 }
 
 .hero-image .btn {
-    background-color: #1e90ff;
-    color: white;
+    background-color: #ccc; /* Soft grey button */
+    color: #333;
     padding: 10px 25px;
     border-radius: 25px;
     font-size: 1.1rem;
@@ -88,21 +90,22 @@ a:hover {
 }
 
 .hero-image .btn:hover {
-    background-color: #4682b4;
+    background-color: #bbb; /* Slightly darker grey on hover */
 }
 
 /* Section Styling */
 section {
     padding: 3rem 1.5rem;
-    background: linear-gradient(90deg, #4682b4, #1e90ff); /* Blue gradient */
-    color: #ffffff;
+    background: #fff; /* White background for sections */
+    color: #333;
     border-radius: 8px;
     margin: 1.5rem;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
 
 section h2 {
     margin-bottom: 1rem;
+    color: #333;
 }
 
 section p {
@@ -111,9 +114,17 @@ section p {
 
 /* Footer */
 footer {
-    background-color: #1e90ff;
-    color: #ffffff;
+    background-color: #333; /* Dark grey footer */
+    color: #fff;
     text-align: center;
     padding: 1rem;
+}
+
+footer a {
+    color: #bbb; /* Lighter grey for footer links */
+}
+
+footer a:hover {
+    color: #fff; /* White on hover */
 }
 
