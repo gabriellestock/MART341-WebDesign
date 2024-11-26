@@ -107,6 +107,26 @@ a:hover {
     background-color: #bbb; /* Slightly darker grey on hover */
 }
 
+/* Portfolio Section Styling */
+.portfolio-photo {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-photo:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on hover */
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+    .portfolio-photo {
+        margin-bottom: 20px;
+    }
+}
+
+
 /* Section Styling */
 section {
     padding: 3rem 1.5rem;
