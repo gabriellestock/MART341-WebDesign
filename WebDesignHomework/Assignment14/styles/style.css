@@ -109,31 +109,37 @@ a:hover {
 
 /* Portfolio Section Styling */
 .portfolio-photo {
-    width: 100%;   /* Ensures the image takes the full width of its column */
-    height: 200px; /* Fixed height for uniformity */
-    object-fit: cover; /* Ensures the image covers the area without stretching */
+    width: 100%;         /* Ensures the image takes the full width of its column */
+    height: 300px;       /* Set a higher height for larger images */
+    object-fit: cover;   /* Ensures the image covers the area without stretching */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin: 0 auto; /* Centers the images within the columns */
+    margin: 0 auto;      /* Centers the images within the columns */
 }
 
+/* Hover effect for images */
 .portfolio-photo:hover {
     transform: scale(1.05); /* Slight zoom effect on hover */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
 }
 
-/* Ensures images stay in a horizontal row on all screen sizes */
+/* Ensure proper spacing between images */
 .row {
     display: flex;
-    justify-content: center;
+    justify-content: space-between; /* Ensures there is space between columns */
     align-items: center;
 }
 
-/* Optional: Control image sizes for very small screens */
+/* Optional: Adjust for smaller screens */
 @media (max-width: 768px) {
     .portfolio-photo {
-        width: 80%;  /* Adjust width for smaller screens */
+        width: 90%;  /* Adjust width for smaller screens */
+        height: 250px; /* Slightly smaller height on smaller screens */
+    }
+    .row {
+        flex-direction: column; /* Stack images vertically on smaller screens */
     }
 }
+
 
 
 /* Section Styling */
