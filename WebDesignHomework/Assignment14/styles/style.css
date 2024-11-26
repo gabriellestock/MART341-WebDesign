@@ -1,3 +1,11 @@
+/* Canvas styling */
+#canvasAnimation {
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Subtle background for the canvas */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Light shadow to separate it from the background */
+}
+
 /* Global Styles */
 body {
     font-family: 'Arial', sans-serif;
