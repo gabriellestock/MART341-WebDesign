@@ -1,6 +1,10 @@
 const canvas = document.getElementById('canvasAnimation');
 const ctx = canvas.getContext('2d');
 
+// Adjust the canvas size based on the window dimensions
+canvas.width = window.innerWidth;
+canvas.height = 400;  // Keep the height consistent with your CSS or adjust as needed
+
 // Set the number of particles
 const numParticles = 100;
 const particles = [];
@@ -50,3 +54,4 @@ function animateParticles() {
 
 // Start the animation
 animateParticles();
+
