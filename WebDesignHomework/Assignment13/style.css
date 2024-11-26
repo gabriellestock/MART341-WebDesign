@@ -4,15 +4,16 @@ body {
     background-color: #f9f9f9;
     margin: 0;
     padding: 0;
-  }
-  
-  a {
+    line-height: 1.6;
+}
+
+a {
     text-decoration: none;
     color: inherit;
-  }
-  
-  /* Header Styling */
-  .header {
+}
+
+/* Header Styling */
+.header {
     background: linear-gradient(to right, #a7c7e7, #d6ebf8);
     padding: 1rem 2rem;
     color: #003d73;
@@ -24,40 +25,46 @@ body {
     width: 100%;
     z-index: 1000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .header .logo {
+}
+
+.header .logo {
     font-size: 1.5rem;
     font-weight: bold;
-  }
-  
-  .header nav ul {
+}
+
+.header nav ul {
     list-style: none;
     display: flex;
     gap: 1.5rem;
     margin: 0;
     padding: 0;
-  }
-  
-  .header nav ul li a {
+}
+
+.header nav ul li {
+    position: relative;
+}
+
+.header nav ul li a {
     color: #003d73;
     font-size: 1rem;
     font-weight: bold;
-  }
-  
-  .header nav ul li a:hover {
+    transition: color 0.3s ease;
+}
+
+.header nav ul li a:hover {
     text-decoration: underline;
-  }
-  
-  /* Hero Section */
-  .hero {
+    color: #0056b3;
+}
+
+/* Hero Section */
+.hero {
     position: relative;
-    margin-top: 5rem;
+    margin-top: 5rem; /* Adjust for fixed header */
     height: 90vh;
     overflow: hidden;
-  }
-  
-  .hero video {
+}
+
+.hero video {
     position: absolute;
     top: 0;
     left: 0;
@@ -65,9 +72,9 @@ body {
     height: 100%;
     object-fit: cover;
     z-index: -1;
-  }
-  
-  .hero-overlay {
+}
+
+.hero-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -75,87 +82,112 @@ body {
     height: 100%;
     background: rgba(0, 102, 204, 0.5);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
-  }
-  
-  .hero-overlay h1 {
+    padding: 1rem;
+}
+
+.hero-overlay h1 {
     font-size: 3rem;
     margin-bottom: 0.5rem;
-  }
-  
-  .hero-overlay p {
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.hero-overlay p {
     font-size: 1.25rem;
-  }
-  
-  .hero-overlay a {
+    margin-bottom: 1rem;
+}
+
+.hero-overlay a {
     background-color: #ff6f61;
     color: white;
     padding: 0.75rem 1.5rem;
     border-radius: 5px;
     margin-top: 1rem;
     display: inline-block;
-  }
-  
-  .hero-overlay a:hover {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hero-overlay a:hover {
     background-color: #d84315;
-  }
-  
-  /* Highlights Section */
-  .highlights {
+    transform: scale(1.05);
+}
+
+/* Highlights Section */
+.highlights {
     background: #ffffff;
     padding: 3rem 1rem;
     text-align: center;
-  }
-  
-  .highlights .highlight-card {
+}
+
+.highlights .highlight-card {
     border: 2px solid #d6ebf8;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 1rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .highlights .highlight-card:hover {
+    position: relative;
+}
+
+.highlights .highlight-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-  }
-  
-  .highlights img {
+}
+
+.highlights img {
     width: 100%;
     height: 150px;
     object-fit: cover;
     border-bottom: 2px solid #d6ebf8;
-  }
-  
-  .highlights h4 {
+}
+
+.highlights h4 {
     color: #0056b3;
     font-weight: bold;
     margin-top: 1rem;
-  }
-  
-  .highlights p {
+}
+
+.highlights p {
     color: #333;
     font-size: 1rem;
     padding: 0 1rem;
-  }
-  
-  .highlights .highlight-card-body {
+}
+
+.highlights .highlight-card-body {
     padding: 1rem;
-  }
-  
-  /* Footer */
-  footer {
+    position: relative;
+    z-index: 1;
+}
+
+/* Interactive Effects for Cards */
+.highlights .highlight-card:hover h4 {
+    color: #003d73;
+}
+
+.highlights .highlight-card:hover img {
+    opacity: 0.9;
+}
+
+/* Footer */
+footer {
     background-color: #90caf9;
     color: white;
     padding: 1rem;
     text-align: center;
-  }
-  
-  footer a {
+}
+
+footer a {
     color: white;
-  }
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #d6ebf8;
+}
+
   
