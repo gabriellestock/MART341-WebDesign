@@ -87,6 +87,14 @@ nav a:hover {
     transition: transform 0.3s ease;
 }
 
+.main-content.blog {
+    display: block; 
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 15px;
+    gap: 20px;
+}
+
 .blog-post {
     background-color: #ffffff;
     border: 1px solid #ddd;
