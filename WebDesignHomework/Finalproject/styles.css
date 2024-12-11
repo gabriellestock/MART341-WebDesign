@@ -175,18 +175,18 @@ footer {
     background-color: #fce4ec;
     text-align: center;
     padding: 20px;
-    color: #d81b60;
+    color:  #ffa1d9;
     margin-top: 30px;
 }
     
 footer a {
     text-decoration: none;
-    color: #ad1457;
+    color:  #ffa1d9;
     font-weight: 600;
     transition: color 0.3s ease;
 }
     
 footer a:hover {
-    color: #d81b60;
+    color:  #ffa1d9;
     text-decoration: underline;
 }
