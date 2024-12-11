@@ -61,16 +61,12 @@ nav a:hover {
 }
 
 .main-content {
-    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
     margin: 30px auto;
-    padding: 20px;
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    position: relative;
-    overflow: hidden;
-    transition: transform 0.3s ease;
+    padding: 0 15px;
+    gap: 20px;
 }
 
 .main-content:hover {
@@ -168,23 +164,24 @@ nav a:hover {
     height: auto;
     margin: 20px auto;
     border-radius: 8px;
+}
 
 footer {
     background-color: #fce4ec;
     text-align: center;
     padding: 20px;
-    color: #ffa1d9;
+    color: #d81b60;
     margin-top: 30px;
 }
-
+    
 footer a {
     text-decoration: none;
-    color: #ffa1d9;
+    color: #ad1457;
     font-weight: 600;
     transition: color 0.3s ease;
 }
-
+    
 footer a:hover {
-    color: #ffa1d9;
+    color: #d81b60;
     text-decoration: underline;
 }
