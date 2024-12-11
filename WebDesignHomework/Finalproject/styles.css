@@ -118,6 +118,41 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.about h2 {
+    font-size: 2rem;
+    color: #ffa1d9;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.about ul {
+    padding-left: 20px;
+}
+
+.about ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #666;
+}
+
+.about ul li strong {
+    color: #ffa1d9;
+}
+
+.about-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
 footer {
     background-color: #fce4ec;
     text-align: center;
