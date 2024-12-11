@@ -10,7 +10,7 @@ body {
 header {
     background-color: #fce4ec;
     padding: 20px;
-    text-align: center;
+    text-align: left;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     position: relative;
 }
