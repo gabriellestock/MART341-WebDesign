@@ -75,11 +75,16 @@ nav a:hover {
 }
 
 .main-content.about {
-    position: relative;
-    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 800px;
+    margin: 30px auto;
     padding: 20px;
+    background-color:#ffffff;
+    border: 1px solid #ddd;
     border-radius: 8px;
-    transition: all 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
 }
 
 .blog-post {
