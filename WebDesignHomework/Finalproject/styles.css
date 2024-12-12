@@ -238,12 +238,13 @@ nav a:hover {
 
 .image-row {
     display: flex; 
-    justify-co
+    justify-content: flex-start;
+    gap: 5px;
 }
 
 .content-image {
-    width: 60px; 
-    height: auto; 
+    width: 40px;
+    height: auto;
     margin: 0; 
 }
 
