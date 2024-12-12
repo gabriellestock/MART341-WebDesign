@@ -239,9 +239,7 @@ nav a:hover {
 .image-row {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
     gap: 10px;
-    margin: 20px 0;
 }
 
 .content-image {
