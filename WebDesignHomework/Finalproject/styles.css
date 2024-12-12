@@ -246,6 +246,7 @@ nav a:hover {
 
 .content-image {
     flex: 1;
+    max-width: 30%;
     height: auto;
     border: 1px solid #ddd;
     border-radius: 8px;
