@@ -25,6 +25,7 @@ header h1, h3 {
     color: #ffa1d9;
     font-size: 2.5rem;
     font-weight: 700;
+    text-align: left;
 }
 
 header p {
