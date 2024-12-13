@@ -248,6 +248,11 @@ nav a:hover {
     margin: 0; 
 }
 
+.content-video {
+    width: 300px; 
+    height: auto; 
+}
+
 footer {
     background-color: #fce4ec;
     text-align: center;
