@@ -61,6 +61,14 @@ nav a:hover {
     color: #ffa1d9;
 }
 
+.welcome-title {
+    text-align: center; 
+    font-size: 2rem;  
+    font-weight: bold; 
+    margin-top: 20px;  
+    color: #ea98ff;       
+}
+
 .main-content {
     display: flex;
     flex-wrap: wrap;
