@@ -1,10 +1,21 @@
-#Incorporate Required Elements:
+# Project Overview
 
-- Three or more pages: Home (index.html), About (about.html), Blog Posts (blogpost.html), Contact (contact.html).
-A clear, well-organized layout with strong usability: I ensured that each page has a similar feel and I incorporated strong usability by creating an easy flow throughout the website for the reader.
-Use of an external stylesheet: Created an extrenal style sheet (styles.css).
-Apply at least one font: applied an Open Sans font.
-At least one image (preferably your own or fair-use images): used several of my own images.
-At least one embedded media element (video, audio, Google Maps, etc.): included a video on my blog post page.
-Structural and semantic HTML markup with a clean and organized page layout: all of my code and pages are clean and organized.
-Legible, well-commented, and error-free code: I believe my website is error free!
+## Required Elements Incorporated:
+
+- **Three or More Pages**:
+  - **Home**: `index.html`
+  - **About**: `about.html`
+  - **Blog Posts**: `blogpost.html`
+  - **Contact**: `contact.html`
+  
+- **Clear, Well-Organized Layout with Strong Usability**:
+  - I ensured each page maintains a consistent feel and flow, promoting ease of use throughout the website. The layout is designed with strong usability to provide a smooth reading experience for users.
+
+- **Use of an External Stylesheet**:
+  - An external stylesheet (`styles.css`) has been created to manage the website's visual design.
+
+- **Use of Fonts**:
+  - Applied the Open Sans font to enhance the text's readability and aesthetic appeal.
+
+- **At Least One Image**:
+  - I used several of my own images throughout the website to make it more personal and engagi
