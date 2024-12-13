@@ -254,6 +254,12 @@ nav a:hover {
     height: auto; 
 }
 
+.about-image {
+    width: 30px;
+    height: auto;
+    margin:auto;
+}
+
 footer {
     background-color: #fce4ec;
     text-align: center;
